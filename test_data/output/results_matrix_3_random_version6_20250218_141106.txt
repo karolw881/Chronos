@@ -1,0 +1,40 @@
+Test: 3_random_version6
+Rozmiar macierzy: 3x3
+
+Czasy (dodawanie):
+  Obiektowa: 2.1 µs
+  Refleksyjna: 21.8 µs
+  Różnica: 19.7 µs
+
+Czasy (mnożenie):
+  Obiektowa: 4.7 µs
+  Refleksyjna: 78.5 µs
+  Różnica: 73.8 µs
+
+Wyniki operacji (dodawanie):
+  IntMatrix:
+[89, 136, 91]
+[2, 139, 118]
+[89, 75, 97]
+
+  Matrix (refleksyjna):
+[89, 136, 91]
+[2, 139, 118]
+[89, 75, 97]
+
+
+Wyniki operacji (mnożenie):
+  IntMatrix:
+[2396, 10202, 5951]
+[1336, 8830, 5766]
+[6048, 7692, 3812]
+
+  Matrix (refleksyjna):
+[2396, 10202, 5951]
+[1336, 8830, 5766]
+[6048, 7692, 3812]
+
+
+Walidacja:
+  Wynik dodawania równy: true
+  Wynik mnożenia równy: true

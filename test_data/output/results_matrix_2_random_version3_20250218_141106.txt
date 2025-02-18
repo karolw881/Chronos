@@ -1,0 +1,36 @@
+Test: 2_random_version3
+Rozmiar macierzy: 2x2
+
+Czasy (dodawanie):
+  Obiektowa: 1.9 µs
+  Refleksyjna: 34.3 µs
+  Różnica: 32.4 µs
+
+Czasy (mnożenie):
+  Obiektowa: 1.8 µs
+  Refleksyjna: 54.2 µs
+  Różnica: 52.4 µs
+
+Wyniki operacji (dodawanie):
+  IntMatrix:
+[100, 88]
+[53, 102]
+
+  Matrix (refleksyjna):
+[100, 88]
+[53, 102]
+
+
+Wyniki operacji (mnożenie):
+  IntMatrix:
+[2415, 1884]
+[3780, 2712]
+
+  Matrix (refleksyjna):
+[2415, 1884]
+[3780, 2712]
+
+
+Walidacja:
+  Wynik dodawania równy: true
+  Wynik mnożenia równy: true

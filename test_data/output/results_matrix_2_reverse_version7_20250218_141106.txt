@@ -1,0 +1,36 @@
+Test: 2_reverse_version7
+Rozmiar macierzy: 2x2
+
+Czasy (dodawanie):
+  Obiektowa: 2.6 µs
+  Refleksyjna: 26.6 µs
+  Różnica: 24.0 µs
+
+Czasy (mnożenie):
+  Obiektowa: 3.4 µs
+  Refleksyjna: 63.9 µs
+  Różnica: 60.5 µs
+
+Wyniki operacji (dodawanie):
+  IntMatrix:
+[8, 6]
+[4, 2]
+
+  Matrix (refleksyjna):
+[8, 6]
+[4, 2]
+
+
+Wyniki operacji (mnożenie):
+  IntMatrix:
+[22, 15]
+[10, 7]
+
+  Matrix (refleksyjna):
+[22, 15]
+[10, 7]
+
+
+Walidacja:
+  Wynik dodawania równy: true
+  Wynik mnożenia równy: true

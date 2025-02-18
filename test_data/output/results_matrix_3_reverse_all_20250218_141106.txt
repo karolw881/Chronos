@@ -1,0 +1,22 @@
+Agregowane wyniki dla testu: 3_reverse
+Liczba uruchomień: 10
+
+Wersja 1 - Dodawanie: Obiektowa: 3.1 µs, Refleksyjna: 23.1 µs; Mnożenie: Obiektowa: 16.1 µs, Refleksyjna: 50.0 µs
+Wersja 2 - Dodawanie: Obiektowa: 1.9 µs, Refleksyjna: 20.7 µs; Mnożenie: Obiektowa: 2.2 µs, Refleksyjna: 47.1 µs
+Wersja 3 - Dodawanie: Obiektowa: 3.1 µs, Refleksyjna: 30.5 µs; Mnożenie: Obiektowa: 3.5 µs, Refleksyjna: 151.7 µs
+Wersja 4 - Dodawanie: Obiektowa: 2.9 µs, Refleksyjna: 56.2 µs; Mnożenie: Obiektowa: 3.5 µs, Refleksyjna: 90.6 µs
+Wersja 5 - Dodawanie: Obiektowa: 2.9 µs, Refleksyjna: 42.4 µs; Mnożenie: Obiektowa: 3.6 µs, Refleksyjna: 86.4 µs
+Wersja 6 - Dodawanie: Obiektowa: 3.0 µs, Refleksyjna: 27.2 µs; Mnożenie: Obiektowa: 3.6 µs, Refleksyjna: 87.4 µs
+Wersja 7 - Dodawanie: Obiektowa: 3.3 µs, Refleksyjna: 40.1 µs; Mnożenie: Obiektowa: 6.1 µs, Refleksyjna: 101.2 µs
+Wersja 8 - Dodawanie: Obiektowa: 35.3 µs, Refleksyjna: 54.9 µs; Mnożenie: Obiektowa: 5.0 µs, Refleksyjna: 94.3 µs
+Wersja 9 - Dodawanie: Obiektowa: 3.2 µs, Refleksyjna: 26.6 µs; Mnożenie: Obiektowa: 4.1 µs, Refleksyjna: 101.9 µs
+Wersja 10 - Dodawanie: Obiektowa: 4.2 µs, Refleksyjna: 31.3 µs; Mnożenie: Obiektowa: 6.9 µs, Refleksyjna: 175.5 µs
+
+Statystyki zagregowane (czas w µs):
+Operacja dodawania:
+  Obiektowa – Min: 1.9, Max: 35.3, Średnia: 6.29, Mediana: 3.1
+  Refleksyjna – Min: 20.7, Max: 56.2, Średnia: 35.3, Mediana: 30.9
+
+Operacja mnożenia:
+  Obiektowa – Min: 2.2, Max: 16.1, Średnia: 5.46, Mediana: 3.85
+  Refleksyjna – Min: 47.1, Max: 175.5, Średnia: 98.61, Mediana: 92.45

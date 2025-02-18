@@ -1,0 +1,40 @@
+Test: 3_reverse_version8
+Rozmiar macierzy: 3x3
+
+Czasy (dodawanie):
+  Obiektowa: 35.3 µs
+  Refleksyjna: 54.9 µs
+  Różnica: 19.6 µs
+
+Czasy (mnożenie):
+  Obiektowa: 5.0 µs
+  Refleksyjna: 94.3 µs
+  Różnica: 89.3 µs
+
+Wyniki operacji (dodawanie):
+  IntMatrix:
+[18, 16, 14]
+[12, 10, 8]
+[6, 4, 2]
+
+  Matrix (refleksyjna):
+[18, 16, 14]
+[12, 10, 8]
+[6, 4, 2]
+
+
+Wyniki operacji (mnożenie):
+  IntMatrix:
+[150, 126, 102]
+[96, 81, 66]
+[42, 36, 30]
+
+  Matrix (refleksyjna):
+[150, 126, 102]
+[96, 81, 66]
+[42, 36, 30]
+
+
+Walidacja:
+  Wynik dodawania równy: true
+  Wynik mnożenia równy: true

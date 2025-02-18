@@ -1,0 +1,48 @@
+Test: 5_reverse_version8
+Rozmiar macierzy: 5x5
+
+Czasy (dodawanie):
+  Obiektowa: 2.8 µs
+  Refleksyjna: 19.7 µs
+  Różnica: 16.9 µs
+
+Czasy (mnożenie):
+  Obiektowa: 5.4 µs
+  Refleksyjna: 119.8 µs
+  Różnica: 114.4 µs
+
+Wyniki operacji (dodawanie):
+  IntMatrix:
+[50, 48, 46, 44, 42]
+[40, 38, 36, 34, 32]
+[30, 28, 26, 24, 22]
+[20, 18, 16, 14, 12]
+[10, 8, 6, 4, 2]
+
+  Matrix (refleksyjna):
+[50, 48, 46, 44, 42]
+[40, 38, 36, 34, 32]
+[30, 28, 26, 24, 22]
+[20, 18, 16, 14, 12]
+[10, 8, 6, 4, 2]
+
+
+Wyniki operacji (mnożenie):
+  IntMatrix:
+[1775, 1660, 1545, 1430, 1315]
+[1400, 1310, 1220, 1130, 1040]
+[1025, 960, 895, 830, 765]
+[650, 610, 570, 530, 490]
+[275, 260, 245, 230, 215]
+
+  Matrix (refleksyjna):
+[1775, 1660, 1545, 1430, 1315]
+[1400, 1310, 1220, 1130, 1040]
+[1025, 960, 895, 830, 765]
+[650, 610, 570, 530, 490]
+[275, 260, 245, 230, 215]
+
+
+Walidacja:
+  Wynik dodawania równy: true
+  Wynik mnożenia równy: true

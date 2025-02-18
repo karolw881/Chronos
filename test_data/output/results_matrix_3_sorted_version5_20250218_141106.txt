@@ -1,0 +1,40 @@
+Test: 3_sorted_version5
+Rozmiar macierzy: 3x3
+
+Czasy (dodawanie):
+  Obiektowa: 3.6 µs
+  Refleksyjna: 32.1 µs
+  Różnica: 28.5 µs
+
+Czasy (mnożenie):
+  Obiektowa: 6.9 µs
+  Refleksyjna: 118.0 µs
+  Różnica: 111.1 µs
+
+Wyniki operacji (dodawanie):
+  IntMatrix:
+[0, 2, 4]
+[6, 8, 10]
+[12, 14, 16]
+
+  Matrix (refleksyjna):
+[0, 2, 4]
+[6, 8, 10]
+[12, 14, 16]
+
+
+Wyniki operacji (mnożenie):
+  IntMatrix:
+[15, 18, 21]
+[42, 54, 66]
+[69, 90, 111]
+
+  Matrix (refleksyjna):
+[15, 18, 21]
+[42, 54, 66]
+[69, 90, 111]
+
+
+Walidacja:
+  Wynik dodawania równy: true
+  Wynik mnożenia równy: true
