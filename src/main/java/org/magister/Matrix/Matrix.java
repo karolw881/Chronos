@@ -51,7 +51,6 @@ public class Matrix <T>{
 
 
 
-
     /**
      * Dodawanie macierzy
      */
@@ -107,7 +106,7 @@ public class Matrix <T>{
         //  tu wczesniej popelnialem blad ale jest juz dobrze
         for (int i = 0; i < this.rows; i++) {
             for (int j = 0; j < matrix.columns; j++) {
-                T sum = numberxx.zero();
+                T sum = (T) numberxx.zero();
                 for (int k = 0; k < this.columns; k++) {
                     T product = numberxx.multiply(this.data[i][k], matrix.data[k][j]);
                     sum = numberxx.add(sum, product);
@@ -162,7 +161,7 @@ public class Matrix <T>{
             return numberxx.subtract(ad, bc);
         }
 
-        T result = numberxx.zero();
+        T result = (T) numberxx.zero();
         for (int j = 0; j < columns; j++) {
             Matrix<T> subMatrix = createSubMatrix(0, j);
             T minor = subMatrix.determinant();
@@ -214,7 +213,7 @@ public class Matrix <T>{
      */
     public boolean isInvertible() {
         if (rows != columns) {
-            return false; // Tylko macierze kwadratowe mogą być odwracalne !!!!!!!!
+            return false; // Tylko macierze kwadratowe mogą być odwracalne
         }
 
         T det = determinant();
