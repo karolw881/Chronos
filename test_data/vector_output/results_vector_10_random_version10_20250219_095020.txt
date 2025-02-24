@@ -1,0 +1,32 @@
+Test: 10_random_version10
+Vector dimension: 10
+
+Times (addition):
+  Object-oriented: 1.8 µs
+  Reflective: 54.8 µs
+  Difference: 53.0 µs
+
+Times (opposite):
+  Object-oriented: 1.4 µs
+  Reflective: 19.4 µs
+  Difference: 18.0 µs
+
+Times (subtraction):
+  Object-oriented: 1.7 µs
+Times (dot product):
+  Object-oriented: 0.9 µs
+Operation results (addition):
+  IntVector:
+[112, 65, 124, 176, 146, 57, 61, 88, 62, 102]
+  Vector (reflective):
+[112, 65, 124, 176, 146, 57, 61, 88, 62, 102]
+
+Operation results (opposite):
+  IntVector:
+[-30, -63, -48, -84, -70, -25, -5, -18, -19, -93]
+  Vector (reflective):
+[-30, -63, -48, -84, -70, -25, -5, -18, -19, -93]
+
+Validation:
+  Addition result equal: true
+  Opposite result equal: true

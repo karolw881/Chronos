@@ -1,0 +1,139 @@
+Test case: 10_random
+Number of runs: 10
+
+Run 1
+Execution times:
+Concrete standard: 0,061 ms
+Concrete reflection: 1,493 ms
+Generic standard: 0,150 ms
+Generic reflection: 0,150 ms
+
+
+Validation results:
+Concrete implementations match: true
+Generic implementations match: true
+Run 2
+Execution times:
+Concrete standard: 0,054 ms
+Concrete reflection: 0,098 ms
+Generic standard: 0,097 ms
+Generic reflection: 0,116 ms
+
+
+Validation results:
+Concrete implementations match: true
+Generic implementations match: true
+Run 3
+Execution times:
+Concrete standard: 0,058 ms
+Concrete reflection: 0,106 ms
+Generic standard: 0,111 ms
+Generic reflection: 0,139 ms
+
+
+Validation results:
+Concrete implementations match: true
+Generic implementations match: true
+Run 4
+Execution times:
+Concrete standard: 0,069 ms
+Concrete reflection: 0,085 ms
+Generic standard: 0,124 ms
+Generic reflection: 0,105 ms
+
+
+Validation results:
+Concrete implementations match: true
+Generic implementations match: true
+Run 5
+Execution times:
+Concrete standard: 0,048 ms
+Concrete reflection: 0,081 ms
+Generic standard: 0,136 ms
+Generic reflection: 0,127 ms
+
+
+Validation results:
+Concrete implementations match: true
+Generic implementations match: true
+Run 6
+Execution times:
+Concrete standard: 0,072 ms
+Concrete reflection: 0,082 ms
+Generic standard: 0,102 ms
+Generic reflection: 0,111 ms
+
+
+Validation results:
+Concrete implementations match: true
+Generic implementations match: true
+Run 7
+Execution times:
+Concrete standard: 0,035 ms
+Concrete reflection: 0,056 ms
+Generic standard: 0,053 ms
+Generic reflection: 0,055 ms
+
+
+Validation results:
+Concrete implementations match: true
+Generic implementations match: true
+Run 8
+Execution times:
+Concrete standard: 0,109 ms
+Concrete reflection: 0,085 ms
+Generic standard: 0,074 ms
+Generic reflection: 0,060 ms
+
+
+Validation results:
+Concrete implementations match: true
+Generic implementations match: true
+Run 9
+Execution times:
+Concrete standard: 0,044 ms
+Concrete reflection: 0,097 ms
+Generic standard: 0,111 ms
+Generic reflection: 0,067 ms
+
+
+Validation results:
+Concrete implementations match: true
+Generic implementations match: true
+Run 10
+Execution times:
+Concrete standard: 0,032 ms
+Concrete reflection: 0,048 ms
+Generic standard: 0,048 ms
+Generic reflection: 0,095 ms
+
+
+Validation results:
+Concrete implementations match: true
+Generic implementations match: true
+
+Aggregated Statistics:
+concrete_reflection:
+Min: 0,048 ms
+Max: 1,493 ms
+Average: 0,223 ms
+Median: 0,085 ms
+
+generic_standard:
+Min: 0,048 ms
+Max: 0,150 ms
+Average: 0,101 ms
+Median: 0,106 ms
+
+generic_reflection:
+Min: 0,055 ms
+Max: 0,150 ms
+Average: 0,103 ms
+Median: 0,108 ms
+
+concrete_standard:
+Min: 0,032 ms
+Max: 0,109 ms
+Average: 0,058 ms
+Median: 0,056 ms
+

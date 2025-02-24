@@ -1,0 +1,11 @@
+Run 2
+Execution times:
+Concrete standard: 0,053 ms
+Concrete reflection: 0,074 ms
+Generic standard: 0,099 ms
+Generic reflection: 0,091 ms
+
+
+Validation results:
+Concrete implementations match: true
+Generic implementations match: true

@@ -1,0 +1,19 @@
+Aggregated results for test case: 1000_random
+Number of runs: 10
+
+Version 1 - Object: 13103.2 microseconds, Reflective: 97302.4 microseconds
+Version 2 - Object: 36217.2 microseconds, Reflective: 41559.6 microseconds
+Version 3 - Object: 3805.3 microseconds, Reflective: 16130.8 microseconds
+Version 4 - Object: 2717.3 microseconds, Reflective: 7562.9 microseconds
+Version 5 - Object: 4132.1 microseconds, Reflective: 8728.4 microseconds
+Version 6 - Object: 2674.5 microseconds, Reflective: 10867.3 microseconds
+Version 7 - Object: 2525.4 microseconds, Reflective: 11200.6 microseconds
+Version 8 - Object: 2757.0 microseconds, Reflective: 11295.2 microseconds
+Version 9 - Object: 3027.7 microseconds, Reflective: 6043.4 microseconds
+Version 10 - Object: 2492.4 microseconds, Reflective: 6116.8 microseconds
+
+Aggregated Statistics (times in microseconds):
+Object Implementation:
+Min: 2492.4, Max: 36217.2, Average: 7345.21, Median: 2892.35
+Reflective Implementation:
+Min: 6043.4, Max: 97302.4, Average: 21680.74, Median: 11033.95

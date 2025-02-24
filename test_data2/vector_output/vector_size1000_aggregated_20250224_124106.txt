@@ -1,0 +1,119 @@
+Test case: size = 1000
+Number of runs: 10
+
+Run 1
+Vector1 add standard: 0,039 ms
+Vector1 add reflection: 0,075 ms
+Vector2 add standard: 0,151 ms
+Vector2 add reflection: 0,172 ms
+Validation results:
+Vector1 implementations match: true
+Vector2 implementations match: true
+
+Run 2
+Vector1 add standard: 0,037 ms
+Vector1 add reflection: 0,060 ms
+Vector2 add standard: 0,156 ms
+Vector2 add reflection: 0,172 ms
+Validation results:
+Vector1 implementations match: true
+Vector2 implementations match: true
+
+Run 3
+Vector1 add standard: 0,038 ms
+Vector1 add reflection: 0,077 ms
+Vector2 add standard: 0,165 ms
+Vector2 add reflection: 0,156 ms
+Validation results:
+Vector1 implementations match: true
+Vector2 implementations match: true
+
+Run 4
+Vector1 add standard: 0,036 ms
+Vector1 add reflection: 0,056 ms
+Vector2 add standard: 0,109 ms
+Vector2 add reflection: 0,074 ms
+Validation results:
+Vector1 implementations match: true
+Vector2 implementations match: true
+
+Run 5
+Vector1 add standard: 0,037 ms
+Vector1 add reflection: 0,065 ms
+Vector2 add standard: 0,099 ms
+Vector2 add reflection: 0,109 ms
+Validation results:
+Vector1 implementations match: true
+Vector2 implementations match: true
+
+Run 6
+Vector1 add standard: 0,020 ms
+Vector1 add reflection: 0,037 ms
+Vector2 add standard: 0,050 ms
+Vector2 add reflection: 0,064 ms
+Validation results:
+Vector1 implementations match: true
+Vector2 implementations match: true
+
+Run 7
+Vector1 add standard: 0,026 ms
+Vector1 add reflection: 0,043 ms
+Vector2 add standard: 0,059 ms
+Vector2 add reflection: 0,064 ms
+Validation results:
+Vector1 implementations match: true
+Vector2 implementations match: true
+
+Run 8
+Vector1 add standard: 0,023 ms
+Vector1 add reflection: 0,041 ms
+Vector2 add standard: 0,057 ms
+Vector2 add reflection: 0,070 ms
+Validation results:
+Vector1 implementations match: true
+Vector2 implementations match: true
+
+Run 9
+Vector1 add standard: 0,021 ms
+Vector1 add reflection: 0,037 ms
+Vector2 add standard: 0,053 ms
+Vector2 add reflection: 0,057 ms
+Validation results:
+Vector1 implementations match: true
+Vector2 implementations match: true
+
+Run 10
+Vector1 add standard: 0,030 ms
+Vector1 add reflection: 0,059 ms
+Vector2 add standard: 0,059 ms
+Vector2 add reflection: 0,066 ms
+Validation results:
+Vector1 implementations match: true
+Vector2 implementations match: true
+
+
+Aggregated Statistics:
+vector2_reflection:
+Min: 0,057 ms
+Max: 0,172 ms
+Average: 0,100 ms
+Median: 0,072 ms
+
+vector2_standard:
+Min: 0,050 ms
+Max: 0,165 ms
+Average: 0,096 ms
+Median: 0,079 ms
+
+vector1_reflection:
+Min: 0,037 ms
+Max: 0,077 ms
+Average: 0,055 ms
+Median: 0,058 ms
+
+vector1_standard:
+Min: 0,020 ms
+Max: 0,039 ms
+Average: 0,031 ms
+Median: 0,033 ms
+

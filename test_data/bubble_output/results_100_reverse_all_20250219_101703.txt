@@ -1,0 +1,19 @@
+Aggregated results for test case: 100_reverse
+Number of runs: 10
+
+Version 1 - Object: 172.4 microseconds, Reflective: 3368.3 microseconds
+Version 2 - Object: 198.5 microseconds, Reflective: 4054.7 microseconds
+Version 3 - Object: 174.9 microseconds, Reflective: 2022.4 microseconds
+Version 4 - Object: 210.8 microseconds, Reflective: 1983.0 microseconds
+Version 5 - Object: 184.3 microseconds, Reflective: 1830.4 microseconds
+Version 6 - Object: 175.2 microseconds, Reflective: 1660.3 microseconds
+Version 7 - Object: 150.9 microseconds, Reflective: 1800.4 microseconds
+Version 8 - Object: 173.0 microseconds, Reflective: 1751.5 microseconds
+Version 9 - Object: 173.9 microseconds, Reflective: 1078.0 microseconds
+Version 10 - Object: 124.3 microseconds, Reflective: 1347.3 microseconds
+
+Aggregated Statistics (times in microseconds):
+Object Implementation:
+Min: 124.3, Max: 210.8, Average: 173.82, Median: 174.4
+Reflective Implementation:
+Min: 1078.0, Max: 4054.7, Average: 2089.63, Median: 1815.4
