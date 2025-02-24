@@ -17,17 +17,13 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor(force = true)
-public class Matrix <T>{
+public class Matrix2<T>{
     private final T[][] data;
     private final int rows;
     private final int columns;
     private final Numberxx<T> numberxx;
 
-
-    /**
-     * Lombok to chyba kkonstruktory mnie intersujace pominac dziadostwo
-     */
-    public Matrix(T[][] temp, Numberxx<T> numberxx) {
+    public Matrix2(T[][] temp, Numberxx<T> numberxx) {
         try {
             this.rows = temp.length;
             this.columns = temp[0].length;
@@ -54,7 +50,7 @@ public class Matrix <T>{
     /**
      * Dodawanie macierzy
      */
-    public Matrix<T> add(Matrix<T> matrix) {
+    public Matrix2<T> add(Matrix2<T> matrix) {
         if (this.rows != matrix.rows || this.columns != matrix.columns) {
             throw new IllegalArgumentException("Macierze muszą mieć te same wymiary");
         }
@@ -67,31 +63,27 @@ public class Matrix <T>{
             }
         }
 
-        return new Matrix<>(result, numberxx);
+        return new Matrix2<>(result, numberxx);
     }
 
     /**
      * Odejmowanie macierzy
      */
-    public Matrix<T> subtract(Matrix<T> other) {
+    public Matrix2<T> subtract(Matrix2<T> other) {
         if (this.rows != other.rows || this.columns != other.columns) {
             throw new IllegalArgumentException("Macierze muszą mieć te same wymiary");
         }
 
-        // Inicjalizacja tablicy wynikowej
         T[][] result = (T[][]) new Object[this.rows][this.columns];
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < columns; j++) {
                 result[i][j] = numberxx.subtract(this.data[i][j], other.data[i][j]);
             }
         }
-        return new Matrix<>(result,numberxx);
+        return new Matrix2<>(result,numberxx);
     }
 
-    /**
-     * Mnożenie macierzy
-     */
-    public Matrix<T> multiply(Matrix<T> matrix) {
+    public Matrix2<T> multiply(Matrix2<T> matrix) {
         if (this.columns != matrix.rows) {
             throw new IllegalArgumentException("Liczba kolumn pierwszej macierzy musi b" +
                     "yć równa liczbie wierszy drugiej macierzy");
@@ -102,8 +94,6 @@ public class Matrix <T>{
         T[][] result = (T[][]) new Object[this.rows][matrix.columns];
 
 
-
-        //  tu wczesniej popelnialem blad ale jest juz dobrze
         for (int i = 0; i < this.rows; i++) {
             for (int j = 0; j < matrix.columns; j++) {
                 T sum = (T) numberxx.zero();
@@ -115,13 +105,10 @@ public class Matrix <T>{
             }
         }
 
-        return new Matrix<>(result, numberxx);
+        return new Matrix2<>(result, numberxx);
     }
 
-    /**
-     * Dzielenie macierzy przez skalar
-     */
-    public Matrix<T> divide(T scalar) {
+    public Matrix2<T> divide(T scalar) {
         if (numberxx.isZero(scalar)) {
             throw new IllegalArgumentException("Nie można dzielić przez zero");
         }
@@ -134,12 +121,9 @@ public class Matrix <T>{
             }
         }
 
-        return new Matrix<>(result, numberxx);
+        return new Matrix2<>(result, numberxx);
     }
 
-    /**
-     * Oblicza wyznacznik macierzy (dla macierzy kwadratowej)
-     */
     public T determinant() {
         if (rows != columns) {
             throw new IllegalArgumentException("Wyznacznik można obliczyć tylko dla macierzy kwadratowej");
@@ -163,7 +147,7 @@ public class Matrix <T>{
 
         T result = (T) numberxx.zero();
         for (int j = 0; j < columns; j++) {
-            Matrix<T> subMatrix = createSubMatrix(0, j);
+            Matrix2<T> subMatrix = createSubMatrix(0, j);
             T minor = subMatrix.determinant();
             T cofactor = numberxx.multiply(data[0][j], minor);
 
@@ -192,7 +176,7 @@ public class Matrix <T>{
      * @param colToRemove
      * @return
      */
-    private Matrix<T> createSubMatrix(int rowToRemove, int colToRemove) {
+    private Matrix2<T> createSubMatrix(int rowToRemove, int colToRemove) {
         T[][] subData = (T[][]) new Object[rows - 1][columns - 1];
         int r = 0; // niby row w subData
         for (int i = 0; i < rows; i++) {
@@ -205,7 +189,7 @@ public class Matrix <T>{
                 }r++;
             }
         }
-        return new Matrix<>(subData, numberxx);
+        return new Matrix2<>(subData, numberxx);
     }
 
     /**

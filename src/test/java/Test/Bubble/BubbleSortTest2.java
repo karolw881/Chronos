@@ -1,4 +1,4 @@
-package Test.BubbleTest;
+package Test.Bubble;
 
 
 
@@ -15,8 +15,8 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
 public class BubbleSortTest2 {
-    private static final String INPUT_DIR = "test_data/input/";
-    private static final String OUTPUT_DIR = "test_data/output/";
+    private static final String INPUT_DIR = "test_data/bubble_input/";
+    private static final String OUTPUT_DIR = "test_data/bubble_output/";
     private static BubbleSort<Integer> objectSorter;
     private static ReflectiveBubbleSort reflectiveSorter;
     // Liczba powtórzeń dla każdego przypadku

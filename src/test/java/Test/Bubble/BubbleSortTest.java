@@ -1,4 +1,4 @@
-package Test.BubbleTest;
+package Test.Bubble;
 
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -17,7 +17,6 @@ public class BubbleSortTest {
     private static final String OUTPUT_DIR = "test_data/output/";
     private static BubbleSort<Integer> objectSorter;
     private static ReflectiveBubbleSort reflectiveSorter;
-
     @BeforeAll
     static void setUp() {
         objectSorter = new BubbleSort<>();

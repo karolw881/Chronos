@@ -3,7 +3,7 @@ package org.magister.Vector;
 import java.lang.reflect.Method;
 
 // Implementacja generyczna
-public class Vector<T extends Number> {
+public class Vector<T > {
     private T[] coordinates;
 
     @SuppressWarnings("unchecked")
@@ -40,5 +40,5 @@ public class Vector<T extends Number> {
         return new Vector<>(result);
     }
 
-    // Pozostałe metody implementowane analogicznie z użyciem refleksji...
+
 }
