@@ -4,6 +4,8 @@ package org.magister.Bubble;
 
 
 public class BubbleSort<T extends Comparable<T>> {
+
+
     public T[] sort(T[] arr) {
         int n = arr.length;
         for (int i = 0; i < n - 1; i++) {
