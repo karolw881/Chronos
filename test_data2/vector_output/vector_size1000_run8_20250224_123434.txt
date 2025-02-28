@@ -1,0 +1,9 @@
+Run 8
+Vector1 add standard: 0,074 ms
+Vector1 add reflection: 0,096 ms
+Vector2 add standard: 0,155 ms
+Vector2 add reflection: 0,145 ms
+Validation results:
+Vector1 implementations match: true
+Vector2 implementations match: true
+

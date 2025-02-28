@@ -1,0 +1,22 @@
+Aggregated results for test: 10_random
+Number of runs: 10
+
+Version 1 - Addition: Object-oriented: 2.8 µs, Reflective: 68.5 µs; Opposite: Object-oriented: 1.3 µs, Reflective: 18.9 µs
+Version 2 - Addition: Object-oriented: 1.7 µs, Reflective: 630.0 µs; Opposite: Object-oriented: 1.1 µs, Reflective: 307.9 µs
+Version 3 - Addition: Object-oriented: 2.4 µs, Reflective: 41.3 µs; Opposite: Object-oriented: 1.2 µs, Reflective: 24.8 µs
+Version 4 - Addition: Object-oriented: 2.3 µs, Reflective: 42.2 µs; Opposite: Object-oriented: 1.1 µs, Reflective: 24.5 µs
+Version 5 - Addition: Object-oriented: 2.0 µs, Reflective: 51.3 µs; Opposite: Object-oriented: 1.2 µs, Reflective: 19.6 µs
+Version 6 - Addition: Object-oriented: 2.1 µs, Reflective: 45.5 µs; Opposite: Object-oriented: 1.5 µs, Reflective: 34.1 µs
+Version 7 - Addition: Object-oriented: 1.7 µs, Reflective: 90.9 µs; Opposite: Object-oriented: 1.0 µs, Reflective: 27.6 µs
+Version 8 - Addition: Object-oriented: 1.1 µs, Reflective: 24.4 µs; Opposite: Object-oriented: 0.8 µs, Reflective: 13.5 µs
+Version 9 - Addition: Object-oriented: 3.1 µs, Reflective: 56.2 µs; Opposite: Object-oriented: 1.7 µs, Reflective: 30.3 µs
+Version 10 - Addition: Object-oriented: 2.0 µs, Reflective: 45.6 µs; Opposite: Object-oriented: 1.3 µs, Reflective: 28.1 µs
+
+Aggregated statistics (time in µs):
+Addition operation:
+  Object-oriented - Min: 1.1, Max: 3.1, Average: 2.12, Median: 2.05
+  Reflective - Min: 24.4, Max: 630.0, Average: 109.59, Median: 48.45
+
+Opposite operation:
+  Object-oriented - Min: 0.8, Max: 1.7, Average: 1.22, Median: 1.2
+  Reflective - Min: 13.5, Max: 307.9, Average: 52.93, Median: 26.2

@@ -1,0 +1,15 @@
+Test case: 10_random_version4
+Array size: 10
+
+Object implementation time: 22.7 microseconds
+Reflective implementation time: 99.5 microseconds
+Time difference: 76.8 microseconds
+
+Sorting statistics:
+Initial array: [1130, 2763, 1248, 8884, 9970, 7525, 1505, 6918, 5519, 8093]
+Sorted array (object): [1130, 1248, 1505, 2763, 5519, 6918, 7525, 8093, 8884, 9970]
+Sorted array (reflective): [1130, 1248, 1505, 2763, 5519, 6918, 7525, 8093, 8884, 9970]
+
+Validation:
+Object implementation sorted correctly: true
+Reflective implementation sorted correctly: true

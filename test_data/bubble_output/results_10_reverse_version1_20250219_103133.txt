@@ -1,0 +1,15 @@
+Test case: 10_reverse_version1
+Array size: 10
+
+Object implementation time: 9.2 microseconds
+Reflective implementation time: 65.9 microseconds
+Time difference: 56.7 microseconds
+
+Sorting statistics:
+Initial array: [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+Sorted array (object): [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Sorted array (reflective): [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+Validation:
+Object implementation sorted correctly: true
+Reflective implementation sorted correctly: true
